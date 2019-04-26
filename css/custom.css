@@ -46,10 +46,9 @@
 
 .is-number{
         position: absolute;
-        font-size: 8rem;
+        font-size: 9rem;
         font-weight: 700;
         opacity: .1;
-        margin-bottom: 2rem;
-        color: #979797;
-        top: -90px;
+        color: #8f8f8f;
+        top: -100px;
     }
