@@ -15,10 +15,16 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
     
     <!-- PHOTO SWIPE SCRIPTS-->
-    <link rel="stylesheet" href="/css/photoswipe.css">
+    <link rel="stylesheet" href="/css/simplelightbox.min.css">
     <link rel="stylesheet" href="/css/default-skin/default-skin.css"> 
-    <script src="/js/photoswipe.min.js"></script> 
+    <link rel="stylesheet" href="/css/lightbox.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script> 
+    <script src="/js/simple-lightbox.min.js"></script> 
     <script src="/js/photoswipe-ui-default.min.js"></script> 
+    <script src="/js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
     <!--                      -->
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
@@ -56,7 +62,7 @@
 
 <!-- BODY -->
 
-	  <body>
+	  <body class="is-fira-sans">
 
             <section class="hero is-medium is-bold">
                     <div class="hero-body">
@@ -98,11 +104,94 @@
                       </div>
 
                       <div class="section">
+                          <div class="container">
+                              <div class="columns is-centered">
+                                  <div class="column is-half has-text-centered">
+                                        <p class="subtitle is-4 is-fira-sans has-text-weight-bold">Lucid Capacity offers the following features :</p>
+                                  </div>
+                              </div>
+                              <div class="columns">
+                                  <div class="column has-text-centered">
+                                        <p><img src="/images/projects/lucid-capacity/teams.svg" width="56px" height="56px"></p>
+                                        <p class="is-size-6">Manage Teams</p>
+                                  </div>
+                                  <div class="column has-text-centered">
+                                        <div>
+                                          <p><img src="/images/projects/lucid-capacity/assign.svg" width="56px" height="56px"></p>
+                                            <p class="has-text-centered is-size-6">Manage Assignments</p>
+                                        </div>
+                                    </div>
+                                    <div class="column has-text-centered">
+                                            <div>
+                                                <img src="/images/projects/lucid-capacity/ac-itmes.svg" width="56px" height="56px">
+                                                <p class="has-text-centered is-size-6">Work on Action Items</p>
+                                            </div></div>
+                                            <div class="column has-text-centered">
+                                                    <div>
+                                                        <img src="/images/projects/lucid-capacity/subs.svg" width="56px" height="56px">
+                                                        <p class="has-text-centered is-size-6">Add Substitute</p>
+                                                    </div>
+                                                </div> 
+                                                <div class="column has-text-centered">
+                                                        <div>
+                                                            <img src="/images/projects/lucid-capacity/track-changes.svg" width="56px"
+                                                                height="56px">
+                                                            <p class="has-text-centered is-size-6">Track Changes</p>
+                                                        </div>
+                                                    </div>
+                                                                 
+                              </div>
+           <!--                   <nav class="level">
+                                  <div class="level-item has-text-centered">
+                                      <div>
+                                          <p><img src="/images/projects/lucid-capacity/teams.svg" width="56px" height="56px"></p>
+                                          <p class="has-text-centered is-size-6">Manage Teams</p>
+                                      </div>
+                                  </div>
+                                  <div class="level-item has-text-centered">
+                                      <div>
+                                        <p><img src="/images/projects/lucid-capacity/assign.svg" width="56px" height="56px"></p>
+                                          <p class="has-text-centered is-size-6">Manage Assignments</p>
+                                      </div>
+                                  </div>
+                                  <div class="level-item has-text-centered">
+                                      <div>
+                                          <img src="/images/projects/lucid-capacity/ac-itmes.svg" width="56px"
+                                              height="56px">
+                                          <p class="has-text-centered is-size-6">Work on Action Items</p>
+                                      </div>
+                                  </div>
+                                  <div class="level-item has-text-centered">
+                                      <div>
+                                          <img src="/images/projects/lucid-capacity/subs.svg" width="56px"
+                                              height="56px">
+                                          <p class="has-text-centered is-size-6">Add Substitute</p>
+                                      </div>
+                                  </div>
+                                  <div class="level-item has-text-centered">
+                                      <div>
+                                          <img src="/images/projects/lucid-capacity/track-changes.svg" width="56px"
+                                              height="56px">
+                                          <p class="has-text-centered is-size-6">Track Changes</p>
+                                      </div>
+                                  </div>
+                              </nav>        -->
+                          </div>
+                      </div>
+
+                      <div class="hr">
+                            <div class="container">
+                              <hr>
+                            </div>
+                          </div>
+
+                      <div class="section">
                           <div class="container is-fira-sans">
                               <nav class="level">
                                   <div class="level-item content has-text-centered">
                          <!--                 <img src="/images/common/goals.svg" height="36px" width="36px">&nbsp;&nbsp;&nbsp;&nbsp;   -->
-                                      <p class="title is-2 has-text-primary is-underline-green">Goals</p>
+                                      <div class="is-number">01</div>
+                                      <p class="title is-2 has-text-primary">Goals</p>
                                   </div>
                               </nav>
                               <div class="columns is-centered">
@@ -136,7 +225,6 @@
                                       <div class="level-item content has-text-centered">
                                     <!--          <img src="/images/common/process.svg" height="48px" width="48px">&nbsp;&nbsp;&nbsp;&nbsp; -->
                                         <div class="is-number">02</div>
-                                        <div class="mb-50"></div>
                                           <p class="title is-2 has-text-primary">Process</p>
                                       </div>
                                   </nav>
@@ -152,7 +240,8 @@
                                                 <li>Duration : 30-45 minutes per interview</li>
                                             </ul>
                                             <p>Workshops with stakeholders were also conducted on a bi-weekly basis to better understand the tool.</p>
-                                            <img src="/images/projects/lucid-capacity/test_image.png" class="is-covered new-shadow" alt="lucid-project-image">
+                                            <a href="/images/projects/lucid-capacity/test_image.png" data-fancybox="image-1">
+                                            <img src="/images/projects/lucid-capacity/test_image.png" class="is-covered new-shadow" alt="lucid-project-image"></a>
                                             
                                          </div>
                                          
@@ -160,6 +249,44 @@
                                   </div>
                               </div>
                           </div>
+
+                          <div class="hr">
+                                <div class="container">
+                                  <hr>
+                                </div>
+                              </div>
+        
+                              <div class="section">
+                                  <div class="container is-fira-sans">
+                                      <nav class="level">
+                                          
+                                          <div class="level-item content has-text-centered">
+                                        <!--          <img src="/images/common/process.svg" height="48px" width="48px">&nbsp;&nbsp;&nbsp;&nbsp; -->
+                                            <div class="is-number">03</div>
+                                            <div class="mb-50"></div>
+                                              <p class="title is-2 has-text-primary">Results</p>
+                                          </div>
+                                      </nav>
+                                      <div class="columns is-centered">
+                                          <div class="column is-8">
+                                              <div class="content has-text-grey">
+                                                <p>Rapid iteration followed the step after we got the insights from the result to address the following problems for the users :</p>
+                                                <ul>
+                                                    <li>Confusing controls</li>
+                                                    <li>Too much clutter</li>
+                                                    <li>Outdated UI</li>
+                                                    <li>Search and allocation of portfolio difficult process</li>
+                                                    <li>Performance issue</li>
+                                                </ul>
+                                                <a href="/images/projects/lucid-capacity/test_image.png" data-fancybox="image-2">
+                                                <img src="/images/projects/lucid-capacity/test_image.png" class="is-covered new-shadow" alt="lucid-project-image"></a>
+                                                
+                                             </div>
+                                             
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
                 
 	  </body>
 
@@ -183,14 +310,14 @@
 				</div>
 				<div class="column is-3">
 					
-							<div class="content has-text-grey-light">
-									<p class="is-fira-sans">
-									  Connect with me 🤓</p>
-								<a href="https://www.linkedin.com/in/abhinav191" target="_blank" class="has-text-link"><i class="fab fa-linkedin fa-lg"></i></a> &nbsp;&nbsp;
-									<a href="https://www.twitter.com/abhi191" target="_blank" class="has-text-info"><i class="fab fa-twitter fa-lg"></i></a> &nbsp;&nbsp;
-									<a href="https://www.instagram.com/abhi191" target="_blank" class="has-text-danger is-bold"><i class="fab fa-instagram fa-lg"></i></a> &nbsp;&nbsp;
-									<a href="https://www.facebook.com/abhinav191" target="_blank" class="has-text-link"><i class="fab fa-facebook fa-lg"></i></a>
-								</div>	
+                        <div class="content has-text-grey-light">
+                                <p class="is-fira-sans">
+                                  Connect with me 🤓</p>
+                            <a href="https://www.linkedin.com/in/abhinav191" target="_blank" class="has-text-link is-size-5"><i class="fab fa-linkedin fa-lg"></i></a> &nbsp;&nbsp;
+                                <a href="https://www.twitter.com/abhi191" target="_blank" class="has-text-info is-size-5"><i class="fab fa-twitter fa-lg"></i></a> &nbsp;&nbsp;
+                                <a href="https://www.instagram.com/abhi191" target="_blank" class="has-text-danger is-bold is-size-5"><i class="fab fa-instagram fa-lg"></i></a> &nbsp;&nbsp;
+                                <a href="https://www.facebook.com/abhinav191" target="_blank" class="has-text-link is-size-5"><i class="fab fa-facebook fa-lg"></i></a>
+                            </div>		
 				
 			</div>
 		</div>
