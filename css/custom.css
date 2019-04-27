@@ -16,6 +16,11 @@
     font-family: 'Fira Sans';
 }
 
+.text-larger-more{
+    font-size: 5rem;
+    font-family: 'Fira Sans';
+}
+
 .size-is-18{
     font-size: 1.125rem;
 }
@@ -97,4 +102,25 @@
            transform: rotateY(-360deg); 
        
        } 
+   }
+
+   .main-bg{
+    background-image: linear-gradient(to top, #ececec 0%,#f1f1f1 50%, #ffffff 100%);
+   }
+
+   .bg-image{
+       background: url(/images/about/img-3.png);
+       background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;  
+   }
+
+   .spidey{
+    position: absolute;
+    top: 193px;
+    left: 629px;
+    right: 585px;
    }
