@@ -121,7 +121,7 @@
    }
 
 .bg-image{
-       background: url(/images/about/me-1-5.png);
+       background: url(/images/about/me-1-5.webp);
        background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -200,4 +200,39 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
 -o-background-size:cover;
 background-size:cover;
 background-position:center; 
+  }
+
+  .fancy-underline {
+    position: relative;
+  }
+  
+  .fancy-underline::before, span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #FF3860;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .fancy-underline::before {
+    top: 0;
+    transform-origin: center right;
+  }
+  
+  .fancy-underline:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+  }
+  
+  .fancy-underline::after {
+    bottom: 0;
+    transform-origin: center left;
+  }
+  
+  .fancy-underline:hover::after {
+    transform-origin: center right;
+    transform: scaleX(1);
   }
