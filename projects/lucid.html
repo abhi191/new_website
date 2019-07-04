@@ -97,10 +97,11 @@
         <div class="container">
           <div class="columns is-vcentered">
             <div class="column is-half content">
-              <p class="title is-1 is-fira-sans has-text-primary">
+              <p class="is-fira-sans">
                 <!--   <img src="/images/projects/lucid-capacity/lucid-logo.svg" width="48" height="48"> -->
-                Workforce Management
+                <span class="title is-1 has-text-primary">Lucid Capacity</span><br><span class="is-size-4 has-text-grey">(Workforce Management Software)</span>
               </p>
+            <br>
               <p class="has-text-grey is-fira-sans">
                 Lucid Capacity is a re-designed internal SAP tool to manage workforce within the company.</p>
               <p class="has-text-grey is-fira-sans">
@@ -108,7 +109,6 @@
                 Managers have a clear overview about their employees and what they are working on, offering an easy way
                 to maintain their employees, create / staff teams and identify allocation gaps.
               </p>
-
             </div>
             <div class="column is-half content is-centered">
               <!--        <img src="/images/projects/lucid-capacity/lucid-logo.svg" width="56" height="56">   -->
@@ -120,6 +120,11 @@
                   <span class="is-size-7 has-text-grey">A small animation I made 🙂</span>
                 </div>
               </nav>
+            </div>
+          </div>&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="columns is-centered">
+            <div class="column is-8">
+              <img src="/images/projects/lucid-capacity/features-1.png" alt="lucid-capacity-features"> 
             </div>
           </div>
         </div>
@@ -149,22 +154,22 @@
                 what they need to do if they donot regularly get trainings and work with the current tool.</p>
               <p>It was then decided to revamp the whole tool to make it simple and crystal clear for the people both
                 advanced and beginner to use the tool.</p>
-              <ul>
-                <li>Revamp the tool to the current UI standards and specifications.</li>
-                <li>Make the experience of using the tool simple for both beginners and expert people.</li>
-                <li>To make the current implementation of Team Allocation Planner(TAP) easy for people of different
+              <strong class="has-text-grey"><ul>
+                <li>Revamp the Team Allocation Planner(TAP) functionality to the current UI standards and specifications.</li>
+                <li>Make the experience of using TAP simple for both beginners and expert people.</li>
+                <li>To make the current implementation of TAP easy for people of different
                   units to operate.</li>
-                <li>To simplify processes in the current tool.</li>
-                <li>Understand where exactly user is dropping out from using the tool to its full potential.</li>
-              </ul>
+                <li>To simplify processes in the current functionality.</li>
+                <li>Understand where exactly user is dropping out from using the functionality to its full potential.</li>
+              </ul></strong>
             </div>
           </div>
         </div>
         <br><br>
         <div class="columns has-text-centered">
           <div class="column">
-            <a href="/images/projects/lucid-capacity/tap old pic.png" data-fancybox="old-ui">
-              <img src="/images/projects/lucid-capacity/tap old pic.png" alt="TAP script"
+            <a href="/images/projects/lucid-capacity/tap-old-pic.png" data-fancybox="old-ui">
+              <img src="/images/projects/lucid-capacity/tap-old-pic.png" alt="TAP script"
                 class="is-covered subtle-shadow" style="height:25.75rem;"></a>
             <figcaption class="is-size-7">Old Team Allocation Planner UI - Too many things going on</figcaption>
           </div>
@@ -204,25 +209,17 @@
                 was laid out on proper research and insights to make informed decisions.</p>
               <p>The Product Owner(PO) of the project gave a list of major users of the tool and TAP functionality and
                 the following research structure was put in place to get insights :</p>
-              <ul>
+              <strong class="has-text-grey"><ul>
                 <li>Qualitative interviews</li>
                 <li>Number of interviews : 15</li>
                 <li>Participants in interview : 2 UX Designers + 1 PO over skype</li>
                 <li>Duration : 30-45 minutes per interview</li>
-              </ul>
+              </ul></strong><br>
               <p>Workshops with stakeholders were also conducted on a bi-weekly basis to better understand the tool.</p>
-              <br><br>
-              <p>A user story map was created to visualise where exactly TAP occurs in the whole ecosystem and what
-                different stakeholders have different issues with it.</p>
-              <a href="/images/projects/lucid-capacity/usm.png" data-fancybox="image-1">
-                <img src="/images/projects/lucid-capacity/usm.png" class="is-covered subtle-shadow"
-                  alt="lucid-project-image"></a>
-              <figcaption class="is-size-7 has-text-centered">User story map showing the overview of system and
-                pain-points of the users</figcaption>
+            
             </div>
           </div>
         </div>
-        <br><br>
         <div class="columns is-centered">
           <div class="column is-8">
             <div class="content has-text-grey">
@@ -248,7 +245,21 @@
             <figcaption class="is-size-7">Operations Person Persona</figcaption>
 
           </div>
+        </div><br><br>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content has-text-grey">
+              <p>A user story map was created to visualise where exactly TAP occurs in the whole ecosystem and what
+                different stakeholders have different issues with it.</p>
+              <a href="/images/projects/lucid-capacity/tap-usm.png" data-fancybox="image-1">
+                <img src="/images/projects/lucid-capacity/tap-usm.png" class="is-covered subtle-shadow"
+                  alt="lucid-project-image"></a>
+              <figcaption class="is-size-7 has-text-centered">User story map showing the overview of system and
+                pain-points of the users</figcaption>
+            </div>
+          </div>
         </div>
+
       </div>
     </section>
 
@@ -271,47 +282,80 @@
         </nav>
         <div class="columns is-centered">
           <div class="column is-8">
+              <br><br>
             <div class="content has-text-grey">
               <p>Rapid iteration followed the step after we got the insights from the result to address the following
                 problems for the users :</p>
-              <ul>
+                <figure class="image">
+                    <img src="/images/projects/lucid-capacity/insights.png"></figure>
+           <!--   <ul>
                 <li>Confusing controls</li>
                 <li>Too much clutter</li>
                 <li>Outdated UI</li>
                 <li>Search and allocation of portfolio difficult process</li>
                 <li>Performance issue</li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
-        <br><br>
-        <div class="columns has-text-centered">
+        
+        <section class="section">
+          <div class="container has-text-centered">
+            <p class="title is-4 has-text-primary">Iterations</p>
+          </div>
+        </section>
+        <div class="columns is-multiline has-text-centered">
           <div class="column">
-            <a href="/images/projects/lucid-capacity/old_tap-1.png" data-fancybox="oi1">
-              <img src="/images/projects/lucid-capacity/old_tap-1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+          
+            <a href="/images/projects/lucid-capacity/it-1-1.png" data-fancybox="oi1">
+              <img src="/images/projects/lucid-capacity/it-1-1.png" alt="TAP UI" class="is-covered new-shadow"></a>
           </div>
 
           <div class="column">
-            <a href="/images/projects/lucid-capacity/old_tap-2.png" data-fancybox="oi1">
-              <img src="/images/projects/lucid-capacity/old_tap-2.png" alt="TAP UI" class="is-covered new-shadow"></a>
+            <a href="/images/projects/lucid-capacity/it-1-2.png" data-fancybox="oi1">
+              <img src="/images/projects/lucid-capacity/it-1-2.png" alt="TAP UI" class="is-covered new-shadow"></a>
           </div>
           <div class="column">
-            <a href="/images/projects/lucid-capacity/old_tap-3.png" data-fancybox="oi1">
-              <img src="/images/projects/lucid-capacity/old_tap-3.png" alt="TAP UI" class="is-covered new-shadow"></a>
-          </div>
-
-          <div class="column">
-            <a href="/images/projects/lucid-capacity/old_tap-4.png" data-fancybox="oi1">
-              <img src="/images/projects/lucid-capacity/old_tap-4.png" alt="TAP UI" class="is-covered new-shadow"></a>
-          </div>
-
-          <div class="column">
-            <a href="/images/projects/lucid-capacity/old_tap-5.png" data-fancybox="oi1">
-              <img src="/images/projects/lucid-capacity/old_tap-5.png" alt="TAP UI" class="is-covered new-shadow"></a>
+            <a href="/images/projects/lucid-capacity/it-1-3.png" data-fancybox="oi1">
+              <img src="/images/projects/lucid-capacity/it-1-3.png" alt="TAP UI" class="is-covered new-shadow"></a>
           </div>
 
         </div>
         <br><br>
+        <div class="columns is-multiline has-text-centered">
+            <div class="column">
+            
+              <a href="/images/projects/lucid-capacity/it-2-1.png" data-fancybox="oi1">
+                <img src="/images/projects/lucid-capacity/it-2-1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+            </div>
+  
+            <div class="column">
+              <a href="/images/projects/lucid-capacity/it-2-2.png" data-fancybox="oi1">
+                <img src="/images/projects/lucid-capacity/it-2-2.png" alt="TAP UI" class="is-covered new-shadow"></a>
+            </div>
+            <div class="column">
+              <a href="/images/projects/lucid-capacity/it-2-3.png" data-fancybox="oi1">
+                <img src="/images/projects/lucid-capacity/it-2-3.png" alt="TAP UI" class="is-covered new-shadow"></a>
+            </div>
+  
+          </div><br><br>
+          <div class="columns is-multiline has-text-centered">
+              <div class="column">
+              
+                <a href="/images/projects/lucid-capacity/it-3-1.png" data-fancybox="oi1">
+                  <img src="/images/projects/lucid-capacity/it-3-1.png" alt="TAP UI" class="is-covered new-shadow"></a>
+              </div>
+    
+              <div class="column">
+                <a href="/images/projects/lucid-capacity/it-3-2.png" data-fancybox="oi1">
+                  <img src="/images/projects/lucid-capacity/it-3-2.png" alt="TAP UI" class="is-covered new-shadow"></a>
+              </div>
+              <div class="column">
+                <a href="/images/projects/lucid-capacity/it-3-3.png" data-fancybox="oi1">
+                  <img src="/images/projects/lucid-capacity/it-3-3.png" alt="TAP UI" class="is-covered new-shadow"></a>
+              </div>
+    
+            </div><br><br>
         <div class="columns is-centered">
           <div class="column is-8">
             <div class="content has-text-grey">
@@ -373,13 +417,13 @@
             <div class="content has-text-grey">
               <p>Finally the new UI for TAP was released which was easy to use and clutterless yet retaining the
                 functionalities of the old UI. The following were some of the enhacements in the new UI.</p>
-              <ul>
+                <strong class="has-text-grey"><ul>
                 <li>TAP integrated with Teams Tab so no new section needed for it in the website.</li>
                 <li>Searching and allocation of portfolio was made easier than ever.</li>
                 <li>Redundant elements removed to provide crisp functionalities.</li>
                 <li>TAP now fully integrated with the current UI of Lucid Capacity thus making it a part of the same
                   family and giving users a uniform experience through-out.</li>
-              </ul>
+              </ul></strong> <br>
               <p>
                 Some final screens of TAP UI are displayed here.<br>
                 P.S - I would be happy to show the full working prototype offline 🙂
@@ -391,25 +435,31 @@
         <br><br>
         <div class="columns has-text-centered is-grey-light">
           <div class="column">
-            <a href="/images/projects/lucid-capacity/highAdd Portfolio - Hierarchy 4.png" data-fancybox="ui1">
-              <img src="/images/projects/lucid-capacity/highAdd Portfolio - Hierarchy 4.png" alt="TAP UI"
+            <a href="/images/projects/lucid-capacity/new-1.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-1.png" alt="TAP UI"
                 class="is-covered new-shadow"></a>
           </div>
 
           <div class="column">
-            <a href="/images/projects/lucid-capacity/highAdd Portfolio - Normal 3.png" data-fancybox="ui1">
-              <img src="/images/projects/lucid-capacity/highAdd Portfolio - Normal 3.png" alt="TAP UI"
+            <a href="/images/projects/lucid-capacity/new-2.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-2.png" alt="TAP UI"
                 class="is-covered new-shadow"></a>
           </div>
           <div class="column">
-            <a href="/images/projects/lucid-capacity/highedit portfolio item 1.png" data-fancybox="ui1">
-              <img src="/images/projects/lucid-capacity/highedit portfolio item 1.png" alt="TAP UI"
+            <a href="/images/projects/lucid-capacity/new-3.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-3.png" alt="TAP UI"
                 class="is-covered new-shadow"></a>
           </div>
 
           <div class="column">
-            <a href="/images/projects/lucid-capacity/highedit portfolio item 12 months.png" data-fancybox="ui1">
-              <img src="/images/projects/lucid-capacity/highedit portfolio item 12 months.png" alt="TAP UI"
+            <a href="/images/projects/lucid-capacity/new-4.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-4.png" alt="TAP UI"
+                class="is-covered new-shadow"></a>
+          </div>
+
+          <div class="column">
+            <a href="/images/projects/lucid-capacity/new-5.png" data-fancybox="ui1">
+              <img src="/images/projects/lucid-capacity/new-5.png" alt="TAP UI"
                 class="is-covered new-shadow"></a>
           </div>
 
